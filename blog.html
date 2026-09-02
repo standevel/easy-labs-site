@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Insights & Tech Blog | Easy Labs Ltd</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="In-depth technical articles, engineering deep dives, and architectural blueprints on AI systems, healthcare IT (HL7/FHIR), cryptographic e-signatures, EdTech scalability, and enterprise ERP.">
+  <meta name="keywords" content="Easy Labs Blog, Software Engineering Blog, AI Architecture, HL7 FHIR Guide, eSignature Cryptography, EdTech Scalability, Cloud ERP Architecture">
+  <meta name="author" content="Easy Labs Ltd Engineering Team">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://easylabs.io/blog.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Engineering Insights & Tech Blog | Easy Labs Ltd">
+  <meta property="og:description" content="Architectural blueprints, security benchmarks, and engineering deep dives from the Easy Labs technology team.">
+  <meta property="og:url" content="https://easylabs.io/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://easylabs.io/og-blog.png">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Easy Labs Engineering Insights",
+    "url": "https://easylabs.io/blog.html",
+    "description": "Architectural blueprints, security benchmarks, and engineering deep dives on AI, healthcare IT, and enterprise systems.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Easy Labs Ltd",
+      "url": "https://easylabs.io"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a href="/" class="logo" aria-label="Easy Labs Ltd Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">Easy Labs<span>.</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/easyschoolflow.html" class="nav-link">EasySchoolFlow™</a>
+        <a href="/easyworkflow.html" class="nav-link">EasyWorkFlow™</a>
+        <a href="/eserp.html" class="nav-link">EsERP™</a>
+        <a href="/careflowhms.html" class="nav-link">CareflowHMS™</a>
+        <a href="/pricing.html" class="nav-link">Pricing</a>
+        <a href="/blog.html" class="nav-link active">Insights</a>
+        <a href="/#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Blog Header Section -->
+    <section class="section hero-section" style="padding-bottom: 2.5rem;">
+      <div class="container">
+        <div class="section-header reveal" style="max-width: 840px;">
+          <div class="hero-badge-container">
+            <div class="hero-badge">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span>Easy Labs Engineering Journal</span>
+            </div>
+          </div>
+          <h1 class="hero-title" style="margin-top: 1rem;">
+            Architectural Blueprints, <span class="text-gradient">Security &amp; Engineering Insights</span>
+          </h1>
+          <p class="section-desc">
+            Deep-dive explorations into building high-concurrency systems, AI agent infrastructure, HIPAA health IT pipelines, and cryptographic document security.
+          </p>
+        </div>
+
+        <!-- Featured Lead Article -->
+        <article class="hero-glass-card spotlight-card reveal reveal-delay-1" style="max-width: 1140px; margin: 2rem auto 0; padding: 0; overflow: hidden; border-color: rgba(0, 229, 153, 0.3);">
+          <div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 0;">
+            <div style="padding: clamp(2rem, 4vw, 3.5rem); display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <div style="display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap;">
+                  <span class="section-tag" style="margin-bottom: 0; padding: 0.25rem 0.75rem; font-size: 0.75rem;">Featured Blueprint</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">August 17, 2026 &bull; 9 min read</span>
+                </div>
+                <h2 style="font-size: clamp(1.5rem, 2.5vw, 2.2rem); line-height: 1.2; margin-bottom: 1rem;">
+                  <a href="/blog-ai-native-architecture.html" style="color: var(--text-primary); transition: color var(--transition-fast);">
+                    Architecting AI-Native Enterprise Applications: Beyond Simple LLM Wrappers
+                  </a>
+                </h2>
+                <p style="font-size: 1rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                  A production breakdown of building resilient, multi-agent AI systems with asynchronous RAG retrieval, continuous evaluation metrics, and deterministic fallback loops.
+                </p>
+              </div>
+              <div>
+                <div class="service-tags" style="margin-bottom: 1.5rem;">
+                  <span class="service-tag">Agentic Workflows</span>
+                  <span class="service-tag">Vector Search</span>
+                  <span class="service-tag">Sub-100ms Latency</span>
+                  <span class="service-tag">Python &amp; Go</span>
+                </div>
+                <a href="/blog-ai-native-architecture.html" class="btn btn-primary btn-sm">
+                  Read Full Technical Article ➔
+                </a>
+              </div>
+            </div>
+            <div style="background: radial-gradient(circle at center, rgba(0,229,153,0.15) 0%, rgba(7,9,14,0.95) 75%), #05080e; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; border-left: 1px solid var(--border-subtle);">
+              <div style="background: rgba(7,9,14,0.85); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 1.5rem; font-family: var(--font-mono); font-size: 0.8rem; color: #a5f3fc; line-height: 1.6;">
+                <div style="color: var(--text-muted); margin-bottom: 0.5rem;">// Production Multi-Agent Pipeline</div>
+                <div><span style="color: #38bdf8;">const</span> orchestrator = <span style="color: #38bdf8;">new</span> <span style="color: #00e599;">AgentOrchestrator</span>({</div>
+                <div style="padding-left: 1rem;">vectorIndex: <span style="color: #00e599;">"pgvector_prod_us_east"</span>,</div>
+                <div style="padding-left: 1rem;">maxHallucinationDelta: <span style="color: #fbbf24;">0.02</span>,</div>
+                <div style="padding-left: 1rem;">circuitBreakerSLA: <span style="color: #fbbf24;">180</span> <span style="color: var(--text-muted);">// ms</span></div>
+                <div>});</div>
+                <div style="margin-top: 0.75rem; color: var(--accent-primary);">✓ Deterministic Output Sealed &amp; Audited</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Articles Grid Section -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="container">
+        
+        <div class="section-header reveal" style="text-align: left; margin-bottom: 2.5rem;">
+          <h2 class="section-title">All Technical Articles &amp; Guides</h2>
+          <p class="section-desc">Practical implementation guides written by practicing solutions architects and systems engineers.</p>
+        </div>
+
+        <div class="case-studies-grid">
+
+          <!-- Article 1: AI Architecture -->
+          <article class="case-card spotlight-card reveal reveal-delay-1">
+            <div class="case-img-wrap">
+              <div class="case-gradient-bg" style="background: radial-gradient(circle at center, rgba(0,229,153,0.25) 0%, rgba(7,9,14,0.9) 80%);"></div>
+              <span class="case-badge">AI Systems Engineering</span>
+              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="1.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+            </div>
+            <div class="case-body">
+              <div style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.5rem;">
+                Aug 17, 2026 &bull; 9 min read
+              </div>
+              <h3 class="case-title">
+                <a href="/blog-ai-native-architecture.html" style="color: var(--text-primary);">
+                  Architecting AI-Native Enterprise Applications: Beyond Simple LLM Wrappers
+                </a>
+              </h3>
+              <p class="case-desc">
+                How to design high-throughput agentic workflows, deterministic fallbacks, self-healing prompt pipelines, and hybrid dense/sparse vector search.
+              </p>
+              <a href="/blog-ai-native-architecture.html" class="case-read-more">Read Technical Guide →</a>
+            </div>
+          </article>
+
+          <!-- Article 2: Healthcare IT & HL7 FHIR (CareflowHMS) -->
+          <article class="case-card spotlight-card reveal reveal-delay-2">
+            <div class="case-img-wrap">
+              <div class="case-gradient-bg" style="background: radial-gradient(circle at center, rgba(0,229,153,0.25) 0%, rgba(7,9,14,0.9) 80%);"></div>
+              <span class="case-badge">HealthTech &amp; HIPAA</span>
+              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#00e599" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="case-body">
+              <div style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.5rem;">
+                Aug 14, 2026 &bull; 11 min read
+              </div>
+              <h3 class="case-title">
+                <a href="/blog-hipaa-ehr-interoperability.html" style="color: var(--text-primary);">
+                  Navigating HL7 FHIR and HIPAA in Modern Hospital Management Systems
+                </a>
+              </h3>
+              <p class="case-desc">
+                Architectural blueprint for building sub-second longitudinal EHR retrieval, HIPAA-compliant encryption in transit/rest, and automated claims clearinghouses.
+              </p>
+              <a href="/blog-hipaa-ehr-interoperability.html" class="case-read-more">Read Technical Guide →</a>
+            </div>
+          </article>
+
+          <!-- Article 3: Cryptographic e-Signatures (EasyWorkFlow) -->
+          <article class="service-card spotlight-card reveal reveal-delay-3" style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+              <span class="service-tag" style="background: rgba(129, 140, 248, 0.15); color: #818cf8;">LegalTech &amp; Cryptography</span>
+              <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">7 Min Read</span>
+            </div>
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem; line-height: 1.35;">
+              <a href="/blog-cryptographic-esignature-standards.html" style="color: var(--text-primary);">
+                The Cryptography of Legal Digital Signatures: eIDAS, ESIGN, &amp; SHA-256 Audit Trails
+              </a>
+            </h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.5rem; flex-grow: 1;">
+              How EasyWorkFlow achieves tamper-evident completion certificates, RFC 3161 trusted timestamping, and court-admissible forensic audit trails.
+            </p>
+              <a href="/blog-cryptographic-esignature-standards.html" class="case-read-more">Read Technical Guide →</a>
+            </div>
+          </article>
+
+          <!-- Article 4: EdTech Scalability (EasySchoolFlow) -->
+          <article class="case-card spotlight-card reveal reveal-delay-4">
+            <div class="case-img-wrap">
+              <div class="case-gradient-bg" style="background: radial-gradient(circle at center, rgba(0,210,180,0.25) 0%, rgba(7,9,14,0.9) 80%);"></div>
+              <span class="case-badge">EdTech &amp; Distributed Systems</span>
+              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#00d2b4" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <div class="case-body">
+              <div style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.5rem;">
+                Aug 05, 2026 &bull; 10 min read
+              </div>
+              <h3 class="case-title">
+                <a href="/blog-campus-digital-transformation.html" style="color: var(--text-primary);">
+                  Campus OS Architecture: Scaling EdTech for 100,000+ Concurrent Students
+                </a>
+              </h3>
+              <p class="case-desc">
+                Handling concurrent examination spikes, automated AI anti-cheat proctoring pipelines, and multi-campus SIS database synchronization with EasySchoolFlow.
+              </p>
+              <a href="/blog-campus-digital-transformation.html" class="case-read-more">Read Technical Guide →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Engineering Newsletter Subscribe Strip -->
+    <section class="section" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="calculator-wrapper" style="max-width: 860px; margin: 0 auto; text-align: center;">
+          <span class="section-tag" style="margin-bottom: 0.75rem;">Engineering Dispatch</span>
+          <h3 style="font-size: 1.85rem; margin-bottom: 0.75rem;">Get Monthly Architectural Blueprints</h3>
+          <p style="font-size: 1rem; max-width: 580px; margin: 0 auto 1.75rem; color: var(--text-secondary);">
+            No marketing fluff. Just production-tested design patterns, security whitepapers, and system architecture teardowns.
+          </p>
+          <form id="consultation-form" action="#" method="POST" style="display: flex; gap: 0.75rem; max-width: 520px; margin: 0 auto; flex-wrap: wrap;">
+            <input type="email" name="email" class="form-input" placeholder="architect@company.com" required style="flex: 1; min-width: 240px;">
+            <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe to Dispatch</button>
+            <div id="form-feedback" class="form-feedback" style="width: 100%;"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-col">
+          <a href="/" class="logo" style="margin-bottom: 1.25rem;">
+            <div class="logo-symbol">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <span class="logo-text">Easy Labs<span>.</span></span>
+          </a>
+          <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+            Easy Labs Ltd is a technology consulting and product development enterprise empowering modern institutions with intelligent software systems.
+          </p>
+          <div class="footer-status-bar">
+            <span class="footer-status-dot" aria-hidden="true"></span>
+            <span>All Systems Operational — 99.99% Uptime SLA</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Flagship Products</h4>
+          <div class="footer-links">
+            <a href="/easyschoolflow.html" class="footer-link">EasySchoolFlow™ (Campus OS)</a>
+            <a href="/easyworkflow.html" class="footer-link">EasyWorkFlow™ (e-Signature Suite)</a>
+            <a href="/eserp.html" class="footer-link">EsERP™ (Enterprise ERP)</a>
+            <a href="/careflowhms.html" class="footer-link">CareflowHMS™ (HealthTech)</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Engineering Services</h4>
+          <div class="footer-links">
+            <a href="/#services" class="footer-link">AI-Native Applications</a>
+            <a href="/#services" class="footer-link">Full-Stack Web Engineering</a>
+            <a href="/#services" class="footer-link">iOS &amp; Android Apps</a>
+            <a href="/#services" class="footer-link">Custom ERP &amp; Automation</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="/" class="footer-link">Home</a>
+            <a href="/blog.html" class="footer-link" style="color: var(--accent-primary);">Engineering Insights</a>
+            <a href="/#estimator" class="footer-link">Scope Estimator</a>
+            <a href="/#wizard" class="footer-link">Solution Wizard</a>
+            <a href="/#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Easy Labs Ltd. All rights reserved. Registered Enterprise Product &amp; Consulting Firm.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="/privacy.html" class="footer-link">Privacy Policy</a>
+          <a href="/terms.html" class="footer-link">Terms of Service</a>
+          <a href="/security.html" class="footer-link">Security Disclosures</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Pricing & Licensing Plans | Easy Labs Ltd</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Institutional licensing for EasySchoolFlow™ Campus OS — tertiary institution pricing in Naira (NGN) for Nigerian universities, polytechnics, and colleges of education. USD pricing for international deployments. Founding Institution Programme available.">
+  <meta name="keywords" content="Easy Labs Pricing, EasySchoolFlow pricing, EasyWorkFlow pricing, EsERP pricing, CareflowHMS pricing, Enterprise software licensing, HIPAA compliant software cost">
+  <meta name="author" content="Easy Labs Ltd Commercial Licensing Group">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://easylabs.io/pricing.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Enterprise Pricing & Licensing Plans | Easy Labs Ltd">
+  <meta property="og:description" content="Transparent, scalable licensing tiers for Cloud SaaS, Dedicated VPC, and Air-Gapped On-Premise deployments.">
+  <meta property="og:url" content="https://easylabs.io/pricing.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://easylabs.io/og-pricing.png">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Easy Labs Enterprise Suite",
+    "description": "Enterprise software licensing across EasySchoolFlow, EasyWorkFlow, EsERP, and CareflowHMS.",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "NGN",
+      "lowPrice": "3500000",
+      "highPrice": "40000000",
+      "offerCount": "12"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Easy Labs Ltd",
+      "url": "https://easylabs.io"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a href="/" class="logo" aria-label="Easy Labs Ltd Home">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">Easy Labs<span>.</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/easyschoolflow.html" class="nav-link">EasySchoolFlow™</a>
+        <a href="/easyworkflow.html" class="nav-link">EasyWorkFlow™</a>
+        <a href="/eserp.html" class="nav-link">EsERP™</a>
+        <a href="/careflowhms.html" class="nav-link">CareflowHMS™</a>
+        <a href="/pricing.html" class="nav-link active">Pricing</a>
+        <a href="/blog.html" class="nav-link">Insights</a>
+        <a href="/#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="/#contact" class="btn btn-primary btn-sm">Get Custom Quote</a>
+        <button class="mobile-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero Header -->
+    <section class="section hero-section" style="padding-bottom: 2rem;">
+      <div class="container">
+        <div class="section-header reveal" style="max-width: 840px;">
+          <div class="hero-badge-container">
+            <div class="hero-badge">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span>Transparent Enterprise Licensing</span>
+            </div>
+          </div>
+          <h1 class="hero-title" style="margin-top: 1rem;">
+            Tertiary Institution Licensing, <span class="text-gradient">Priced For Impact</span>
+          </h1>
+          <p class="section-desc">
+            Flexible institutional plans for universities, polytechnics, and colleges of education. Nigerian institutions billed in Naira (NGN). International deployments in USD.
+          </p>
+
+          <!-- Interactive Product Filter Tabs -->
+          <div class="product-tab-nav" style="margin-top: 2.5rem; margin-bottom: 1.5rem;" role="tablist">
+            <button class="tab-btn active" id="btn-pricing-easyschoolflow" data-product-price="easyschoolflow">
+              <span class="tab-icon" style="background: rgba(0, 210, 180, 0.2); color: #00d2b4;">🎓</span>
+              <span>EasySchoolFlow™ (Tertiary Campus OS)</span>
+            </button>
+            <button class="tab-btn" id="btn-pricing-easyworkflow" data-product-price="easyworkflow">
+              <span class="tab-icon" style="background: rgba(129, 140, 248, 0.2); color: #818cf8;">✍️</span>
+              <span>EasyWorkFlow™ (e-Sign Suite)</span>
+            </button>
+            <button class="tab-btn" id="btn-pricing-eserp" data-product-price="eserp">
+              <span class="tab-icon" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">📊</span>
+              <span>EsERP™ (Enterprise ERP)</span>
+            </button>
+            <button class="tab-btn" id="btn-pricing-careflowhms" data-product-price="careflowhms">
+              <span class="tab-icon" style="background: rgba(0, 229, 153, 0.2); color: #00e599;">🏥</span>
+              <span>CareflowHMS™ (Hospital OS)</span>
+            </button>
+          </div>
+
+          <!-- Billing Period & Deployment Selector -->
+          <div style="display: inline-flex; align-items: center; gap: 1rem; background: rgba(16, 23, 38, 0.8); border: 1px solid var(--border-medium); border-radius: var(--radius-full); padding: 0.4rem 1.25rem;">
+            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary);">Billing Cycle:</span>
+            <button type="button" class="btn btn-sm active" id="btn-billing-annual" style="background: var(--accent-primary); color: var(--text-inverse); border-radius: var(--radius-full); font-size: 0.78rem; padding: 0.3rem 0.85rem;">
+              Annual (Save 20%)
+            </button>
+            <button type="button" class="btn btn-sm" id="btn-billing-monthly" style="background: transparent; color: var(--text-secondary); border-radius: var(--radius-full); font-size: 0.78rem; padding: 0.3rem 0.85rem;">
+              Quarterly / Monthly
+            </button>
+          </div>
+        </div>
+
+        <!-- Tier Comparison Cards Grid -->
+        <div class="services-grid" id="pricing-cards-container" style="margin-top: 2rem;">
+
+          <!-- Tier 1: Institutional (Core Platform) -->
+          <div class="service-card spotlight-card reveal reveal-delay-1" style="border-color: var(--border-medium);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="service-tag" style="background: rgba(255,255,255,0.05); color: var(--text-primary); font-weight: 700;">Institutional</span>
+              <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">Up to ~2,000 Students</span>
+            </div>
+
+            <h3 id="tier1-name" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Core Platform</h3>
+            <p id="tier1-desc" style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              For smaller tertiary institutions needing a unified SIS, academic management, and essential campus operations.
+            </p>
+
+            <div style="margin-block: 1rem 1.75rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-subtle);">
+              <div style="display: flex; align-items: baseline; gap: 0.35rem;">
+                <span id="tier1-price" style="font-size: 2.5rem; font-weight: 800; color: var(--text-primary);">₦3.5m–₦5m</span>
+              </div>
+              <div id="tier1-period" style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Annual institutional license</div>
+              <div id="tier1-capacity" style="font-size: 0.8rem; color: var(--accent-primary); margin-top: 4px;">Up to ~2,000 Active Students</div>
+            </div>
+
+            <div class="product-features-list" style="margin: 0 0 2rem 0; gap: 0.85rem;">
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier1-f1">Student Information System (SIS) &amp; Admissions</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier1-f2">Academic Management, Course Registration &amp; Results</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier1-f3">Tuition &amp; Campus Fee Automation (Flutterwave / Paystack)</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier1-f4">Student, Staff &amp; Management Portals</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div>Basic Reporting &amp; Parent / Sponsor Portal</div>
+              </div>
+            </div>
+
+            <a href="/#contact" class="btn btn-secondary" style="width: 100%; margin-top: auto;">Request Institutional Pricing</a>
+          </div>
+
+          <!-- Tier 2: Complete Campus (Most Popular) -->
+          <div class="service-card spotlight-card reveal reveal-delay-2" style="border-color: var(--accent-primary); background: rgba(13, 22, 35, 0.9); box-shadow: 0 0 35px rgba(0, 229, 153, 0.15);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="service-tag" style="background: var(--accent-primary); color: var(--text-inverse); font-weight: 800;">★ Most Popular</span>
+              <span style="font-size: 0.75rem; color: var(--accent-primary); font-family: var(--font-mono);">~2,000 – 7,500 Students</span>
+            </div>
+
+            <h3 id="tier2-name" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Complete Campus</h3>
+            <p id="tier2-desc" style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              The flagship package. Run your entire institution — academics, finance, HR, hostel, cafeteria, and LMS — from one platform.
+            </p>
+
+            <div style="margin-block: 1rem 1.75rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-subtle);">
+              <div style="display: flex; align-items: baseline; gap: 0.35rem;">
+                <span id="tier2-price" style="font-size: 2.5rem; font-weight: 800; color: var(--accent-primary);">₦6m–₦10m</span>
+              </div>
+              <div id="tier2-period" style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Annual institutional license</div>
+              <div id="tier2-capacity" style="font-size: 0.8rem; color: var(--accent-primary); margin-top: 4px;">~2,000 – 7,500 Active Students</div>
+            </div>
+
+            <div class="product-features-list" style="margin: 0 0 2rem 0; gap: 0.85rem;">
+              <div class="feature-point">
+                <div class="feature-check" style="background: var(--accent-primary); color: var(--text-inverse);">✓</div>
+                <div id="tier2-f1">Everything in Core Platform</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: var(--accent-primary); color: var(--text-inverse);">✓</div>
+                <div id="tier2-f2">Advanced LMS, CBT &amp; E-Learning</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: var(--accent-primary); color: var(--text-inverse);">✓</div>
+                <div id="tier2-f3">HR, Recruitment, Leave &amp; Payroll Integration</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: var(--accent-primary); color: var(--text-inverse);">✓</div>
+                <div id="tier2-f4">Hostel, Cafeteria, Student Wallet &amp; Inventory</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: var(--accent-primary); color: var(--text-inverse);">✓</div>
+                <div>Advanced Analytics, API &amp; Automated Notifications</div>
+              </div>
+            </div>
+
+            <a href="/#contact" class="btn btn-primary" style="width: 100%; margin-top: auto;">Request Complete Campus Pricing ➔</a>
+          </div>
+
+          <!-- Tier 3: Enterprise Campus -->
+          <div class="service-card spotlight-card reveal reveal-delay-3" style="border-color: var(--border-medium);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="service-tag" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; font-weight: 700;">Enterprise</span>
+              <span style="font-size: 0.75rem; color: #38bdf8; font-family: var(--font-mono);">~7,500 – 20,000 Students</span>
+            </div>
+
+            <h3 id="tier3-name" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Enterprise Campus</h3>
+            <p id="tier3-desc" style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              For large universities requiring multi-campus synchronization, SSO, dedicated infrastructure, and advanced security controls.
+            </p>
+
+            <div style="margin-block: 1rem 1.75rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-subtle);">
+              <div style="display: flex; align-items: baseline; gap: 0.35rem;">
+                <span id="tier3-price" style="font-size: 2.5rem; font-weight: 800; color: #38bdf8;">₦12m–₦20m</span>
+              </div>
+              <div id="tier3-period" style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Annual institutional license</div>
+              <div id="tier3-capacity" style="font-size: 0.8rem; color: #38bdf8; margin-top: 4px;">~7,500 – 20,000 Active Students</div>
+            </div>
+
+            <div class="product-features-list" style="margin: 0 0 2rem 0; gap: 0.85rem;">
+              <div class="feature-point">
+                <div class="feature-check" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">✓</div>
+                <div id="tier3-f1">Everything in Complete Campus</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">✓</div>
+                <div id="tier3-f2">Multi-Campus &amp; Multi-Entity Sync</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">✓</div>
+                <div id="tier3-f3">SSO / SAML, Advanced RBAC &amp; API Ecosystem</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">✓</div>
+                <div id="tier3-f4">Dedicated Infrastructure, BI &amp; Custom Workflows</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">✓</div>
+                <div>Dedicated Support, SLA &amp; Data Migration</div>
+              </div>
+            </div>
+
+            <a href="/#contact" class="btn btn-secondary" style="width: 100%; margin-top: auto;">Request Enterprise Pricing</a>
+          </div>
+
+          <!-- Tier 4: University Group (Custom) -->
+          <div class="service-card spotlight-card reveal reveal-delay-4" id="tier4-card" style="border-color: var(--border-medium);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+              <span class="service-tag" style="background: rgba(255,255,255,0.05); color: var(--text-primary); font-weight: 700;">University Group</span>
+              <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">20,000+ / Multi-Campus</span>
+            </div>
+
+            <h3 id="tier4-name" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Strategic Institutional Deployment</h3>
+            <p id="tier4-desc" style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              For federal universities, multi-campus groups, and complex government deployments requiring custom modules, legacy integration, and dedicated project teams.
+            </p>
+
+            <div style="margin-block: 1rem 1.75rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-subtle);">
+              <div style="display: flex; align-items: baseline; gap: 0.35rem;">
+                <span id="tier4-price" style="font-size: 2.5rem; font-weight: 800; color: var(--text-primary);">₦20m–₦40m+</span>
+              </div>
+              <div id="tier4-period" style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Annual enterprise contract</div>
+              <div id="tier4-capacity" style="font-size: 0.8rem; color: var(--text-primary); margin-top: 4px;">20,000+ Students / Multi-Campus / Custom Scale</div>
+            </div>
+
+            <div class="product-features-list" style="margin: 0 0 2rem 0; gap: 0.85rem;">
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier4-f1">Everything in Enterprise Campus</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier4-f2">Custom Module Development</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier4-f3">Legacy System Migration &amp; Government Integration</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div id="tier4-f4">Dedicated Deployment Project Team</div>
+              </div>
+              <div class="feature-point">
+                <div class="feature-check">✓</div>
+                <div>On-Premise / Air-Gapped Infrastructure Options</div>
+              </div>
+            </div>
+
+            <a href="/#contact" class="btn btn-secondary" style="width: 100%; margin-top: auto;">Speak with Solutions Architect</a>
+          </div>
+
+        </div>
+
+        <!-- Founding Institution Programme -->
+        <section class="section" style="padding-top: 3rem; padding-bottom: 1rem;" id="founding-programme">
+          <div class="container">
+            <div class="contact-card-wrapper" style="border-color: rgba(0, 229, 153, 0.3); background: rgba(13, 22, 35, 0.6);">
+              <div style="padding: 2rem 2.5rem;">
+                <span class="section-tag" style="color: var(--accent-primary); background: rgba(0, 229, 153, 0.12); border-color: rgba(0, 229, 153, 0.25);">Founding Institution Programme</span>
+                <h2 style="font-size: 1.75rem; margin-block: 1rem 1rem; color: var(--text-primary);">Strategic Partnership For The First 5–10 Universities</h2>
+                <p style="font-size: 1rem; color: var(--text-secondary); max-width: 720px; margin-bottom: 1.5rem;">
+                  Your first institutions are not just revenue customers — they are product validation partners, reference sites, and the foundation of market credibility. The <strong>Founding Institution Programme</strong> gives preferential access to enterprise administrative modules, implementation support, and selected premium capabilities during the founding partnership period.
+                </p>
+                <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                  <div style="flex: 1; min-width: 220px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem;">
+                    <strong style="color: var(--accent-primary);">What Founding Institutions Receive</strong>
+                    <ul style="margin: 0.75rem 0 0 0; padding-left: 1.25rem; color: var(--text-secondary); font-size: 0.92rem; line-height: 1.7;">
+                      <li>Preferential access to enterprise modules</li>
+                      <li>Dedicated implementation support</li>
+                      <li>Selected premium capabilities during founding period</li>
+                      <li>Named partnership in case studies &amp; references</li>
+                      <li>Direct input into product roadmap</li>
+                    </ul>
+                  </div>
+                  <div style="flex: 1; min-width: 220px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem;">
+                    <strong style="color: var(--text-primary);">Why This Matters</strong>
+                    <ul style="margin: 0.75rem 0 0 0; padding-left: 1.25rem; color: var(--text-secondary); font-size: 0.92rem; line-height: 1.7;">
+                      <li>Product validation &amp; real-world feedback</li>
+                      <li>Institutional credibility &amp; market penetration</li>
+                      <li>Reference customers for subsequent sales</li>
+                      <li>Long-term strategic technology partnership</li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="/#contact" class="btn btn-primary btn-lg" style="margin-top: 1.5rem; background: var(--brand-easyschoolflow); box-shadow: 0 4px 18px rgba(0, 210, 180, 0.3);">Apply for Founding Institution Programme</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Deployment & Professional Services -->
+        <section class="section" style="padding-top: 2rem; padding-bottom: 1rem; background: var(--bg-secondary);" id="deployment-services">
+          <div class="container">
+            <div class="section-header reveal">
+              <span class="section-tag" style="color: var(--brand-easyschoolflow); background: rgba(0, 210, 180, 0.12); border-color: rgba(0, 210, 180, 0.25);">Professional Services</span>
+              <h2 class="section-title">Deployment, Migration &amp; Custom Engineering</h2>
+              <p class="section-desc">Software subscription is just the beginning. Separate professional services ensure a successful, production-grade campus deployment.</p>
+            </div>
+
+            <div class="services-grid" style="margin-top: 2rem;">
+              <div class="service-card spotlight-card reveal reveal-delay-1" style="border-color: var(--border-medium);">
+                <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem;">Implementation</h3>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">₦1m–₦5m</div>
+                <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1rem;">Configuration, workflow design, staff training, and go-live support. Varies by institutional complexity.</p>
+                <div class="service-tags">
+                  <span class="service-tag">Workflow Design</span>
+                  <span class="service-tag">Staff Training</span>
+                  <span class="service-tag">Go-Live Support</span>
+                </div>
+              </div>
+
+              <div class="service-card spotlight-card reveal reveal-delay-2" style="border-color: var(--border-medium);">
+                <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem;">Data Migration</h3>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">₦500k–₦3m</div>
+                <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1rem;">Legacy SIS, student records, and financial data migration. Depends on volume, quality, and source system complexity.</p>
+                <div class="service-tags">
+                  <span class="service-tag">Legacy SIS Migration</span>
+                  <span class="service-tag">Data Cleansing</span>
+                  <span class="service-tag">Validation &amp; QA</span>
+                </div>
+              </div>
+
+              <div class="service-card spotlight-card reveal reveal-delay-3" style="border-color: var(--border-medium);">
+                <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem;">Custom Integration</h3>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">Custom</div>
+                <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1rem;">Bespoke connectors for government systems, exam boards, library systems, biometric access, and third-party ERPs.</p>
+                <div class="service-tags">
+                  <span class="service-tag">API Development</span>
+                  <span class="service-tag">Government Systems</span>
+                  <span class="service-tag">Biometric / Access Control</span>
+                </div>
+              </div>
+
+              <div class="service-card spotlight-card reveal reveal-delay-4" style="border-color: var(--border-medium);">
+                <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem;">Dedicated Infrastructure</h3>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">Custom</div>
+                <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1rem;">Private AWS/GCP VPC, air-gapped on-premise deployment, or dedicated regional clusters for data residency requirements.</p>
+                <div class="service-tags">
+                  <span class="service-tag">Private VPC</span>
+                  <span class="service-tag">On-Premise</span>
+                  <span class="service-tag">Data Residency</span>
+                </div>
+              </div>
+
+              <div class="service-card spotlight-card reveal reveal-delay-5" style="border-color: var(--border-medium);">
+                <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem;">Premium Support &amp; SLA</h3>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">Custom</div>
+                <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1rem;">Named support contacts, 24/7/365 coverage, 15-minute critical response, and quarterly architectural reviews.</p>
+                <div class="service-tags">
+                  <span class="service-tag">24/7/365 Coverage</span>
+                  <span class="service-tag">Named Contacts</span>
+                  <span class="service-tag">Quarterly Reviews</span>
+                </div>
+              </div>
+
+              <div class="service-card spotlight-card reveal reveal-delay-6" style="border-color: var(--border-medium);">
+                <h3 style="font-size: 1.25rem; margin-bottom: 0.75rem;">Payment Revenue Share</h3>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.5rem;">Agreed Fee</div>
+                <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 1rem;">Optional platform/service fee on eligible transactions processed through EasySchoolFlow (Flutterwave / Paystack). Structured around Nigerian payment regulations.</p>
+                <div class="service-tags">
+                  <span class="service-tag">Tuition Payments</span>
+                  <span class="service-tag">Cafeteria &amp; Hostel</span>
+                  <span class="service-tag">Wallet Transactions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Comprehensive Feature Comparison Table -->
+    <section class="section" style="padding-top: 2rem; background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Feature Matrix</span>
+          <h2 class="section-title">Detailed Enterprise Capability Comparison</h2>
+          <p class="section-desc">Compare security, infrastructure, and support tiers across our enterprise software suites.</p>
+        </div>
+
+        <div style="overflow-x: auto; background: var(--bg-card); border: 1px solid var(--border-medium); border-radius: var(--radius-lg); padding: 1.5rem;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.92rem; text-align: left;">
+            <thead>
+              <tr style="border-bottom: 2px solid var(--border-medium);">
+                <th style="padding: 1rem; color: var(--text-primary); font-weight: 700; width: 30%;">Capability / Spec</th>
+                <th style="padding: 1rem; color: var(--text-primary); font-weight: 700; width: 17.5%;">Institutional</th>
+                <th style="padding: 1rem; color: var(--accent-primary); font-weight: 700; width: 17.5%;">Complete Campus</th>
+                <th style="padding: 1rem; color: #38bdf8; font-weight: 700; width: 17.5%;">Enterprise Campus</th>
+                <th style="padding: 1rem; color: var(--text-muted); font-weight: 700; width: 17.5%;">University Group</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Infrastructure -->
+              <tr style="background: rgba(255,255,255,0.02); font-weight: 700; color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase;">
+                <td colspan="5" style="padding: 0.75rem 1rem;">1. Infrastructure &amp; Deployment</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Hosting Architecture</td>
+                <td style="padding: 1rem; color: var(--text-secondary);">Multi-Tenant Cloud</td>
+                <td style="padding: 1rem; color: var(--text-primary);">Dedicated Cloud Cluster</td>
+                <td style="padding: 1rem; color: #38bdf8; font-weight: 600;">Private VPC / On-Prem</td>
+                <td style="padding: 1rem; color: var(--text-primary); font-weight: 600;">Dedicated Private Infrastructure</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Uptime Guarantee (SLA)</td>
+                <td style="padding: 1rem; color: var(--text-secondary);">99.9%</td>
+                <td style="padding: 1rem; color: var(--accent-primary); font-weight: 700;">99.99%</td>
+                <td style="padding: 1rem; color: #38bdf8; font-weight: 700;">99.999% High Availability</td>
+                <td style="padding: 1rem; color: var(--text-primary); font-weight: 700;">Custom SLA with Financial Penalties</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Multi-Region Failover</td>
+                <td style="padding: 1rem; color: var(--text-muted);">&mdash;</td>
+                <td style="padding: 1rem; color: var(--accent-primary);">✓ Active-Passive</td>
+                <td style="padding: 1rem; color: #38bdf8;">✓ Active-Active Multi-Zone</td>
+                <td style="padding: 1rem; color: var(--text-primary);">✓ Geo-Redundant + Custom DR</td>
+              </tr>
+
+              <!-- Security & Compliance -->
+              <tr style="background: rgba(255,255,255,0.02); font-weight: 700; color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase;">
+                <td colspan="5" style="padding: 0.75rem 1rem;">2. Security &amp; Compliance Standards</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Data Encryption (Rest &amp; Transit)</td>
+                <td style="padding: 1rem; color: var(--text-secondary);">AES-256 / TLS 1.3</td>
+                <td style="padding: 1rem; color: var(--text-primary);">AES-256 + Customer KMS</td>
+                <td style="padding: 1rem; color: #38bdf8;">BYOK (Bring Your Own Key) + HSM</td>
+                <td style="padding: 1rem; color: var(--text-primary);">BYOK + HSM + Custom Controls</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Compliance Certifications</td>
+                <td style="padding: 1rem; color: var(--text-secondary);">GDPR / Standard</td>
+                <td style="padding: 1rem; color: var(--accent-primary);">SOC2 Type II / FERPA</td>
+                <td style="padding: 1rem; color: #38bdf8; font-weight: 600;">HIPAA BAA + ISO 27001 Audit</td>
+                <td style="padding: 1rem; color: var(--text-primary); font-weight: 600;">Full Audit Pack + Custom Compliance</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Single Sign-On (SSO / SAML / OIDC)</td>
+                <td style="padding: 1rem; color: var(--text-muted);">&mdash;</td>
+                <td style="padding: 1rem; color: var(--accent-primary);">✓ Okta, Azure AD, Google</td>
+                <td style="padding: 1rem; color: #38bdf8;">✓ Custom Identity Providers</td>
+                <td style="padding: 1rem; color: var(--text-primary);">✓ Government SSO + Custom IdP</td>
+              </tr>
+
+              <!-- Support & SLAs -->
+              <tr style="background: rgba(255,255,255,0.02); font-weight: 700; color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase;">
+                <td colspan="5" style="padding: 0.75rem 1rem;">3. Support &amp; Integration Sprints</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Technical Support Response Time</td>
+                <td style="padding: 1rem; color: var(--text-secondary);">&lt; 24 Business Hours</td>
+                <td style="padding: 1rem; color: var(--accent-primary); font-weight: 700;">&lt; 1 Hour Priority</td>
+                <td style="padding: 1rem; color: #38bdf8; font-weight: 700;">&lt; 15 Min 24/7/365 Dedicated</td>
+                <td style="padding: 1rem; color: var(--text-primary); font-weight: 700;">15-Min Critical + Project Team</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--border-subtle);">
+                <td style="padding: 1rem; color: var(--text-primary);">Dedicated Solutions Architect</td>
+                <td style="padding: 1rem; color: var(--text-muted);">&mdash;</td>
+                <td style="padding: 1rem; color: var(--accent-primary);">Quarterly Review</td>
+                <td style="padding: 1rem; color: #38bdf8; font-weight: 600;">Named Principal Architect</td>
+                <td style="padding: 1rem; color: var(--text-primary); font-weight: 600;">Named Principal + Delivery Lead</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section class="section contact-section" id="quote">
+      <div class="container">
+        <div class="contact-card-wrapper" style="border-color: rgba(0, 229, 153, 0.3);">
+          <div class="contact-layout-grid">
+            
+            <div class="contact-sidebar">
+              <div>
+                <span class="section-tag">Institutional Pricing</span>
+                <h3 style="font-size: 1.75rem; margin-block: 0.75rem 1rem;">Request Formal RFP / Volume Quotation</h3>
+                <p style="font-size: 0.95rem;">
+                  Need tailored institutional licensing for your university, polytechnic, or college? Nigerian institutions invoiced in Naira (NGN). International deployments in USD. Speak directly with our commercial licensing directors.
+                </p>
+              </div>
+
+              <div class="contact-info-list">
+                <div class="contact-info-row">
+                  <div class="info-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div class="info-meta">
+                    <h4>Licensing Desk</h4>
+                    <p><a href="mailto:contact@easylabs.io">contact@easylabs.io</a></p>
+                  </div>
+                </div>
+
+                <div class="contact-info-row">
+                  <div class="info-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                  </div>
+                  <div class="info-meta">
+                    <h4>Contract Flexibility</h4>
+                    <p>NGN Invoicing for Nigerian Institutions, Multi-Year Discounts, Net-30 Terms</p>
+                  </div>
+                </div>
+              </div>
+
+              <div style="font-size:0.8rem; color:var(--text-muted);">
+                All proposals protected under standard bilateral NDA.
+              </div>
+            </div>
+
+            <!-- Form -->
+            <div class="contact-form-area">
+              <form id="consultation-form" action="#" method="POST">
+                
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="contact-name" class="form-label">Full Name *</label>
+                    <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Rachel Adams" required autocomplete="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-email" class="form-label">Work Email *</label>
+                    <input type="email" id="contact-email" name="email" class="form-input" placeholder="r.adams@enterprise.com" required autocomplete="email" inputmode="email">
+                  </div>
+                </div>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="contact-company" class="form-label">Organization Name *</label>
+                    <input type="text" id="contact-company" name="company" class="form-input" placeholder="e.g. Apex Health Systems" required autocomplete="organization">
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-interest" class="form-label">Primary Product Focus *</label>
+                    <select id="contact-interest" name="interest" class="form-select" required>
+                      <option value="all-suite">All-In-One Enterprise Suite</option>
+                      <option value="easyschoolflow">EasySchoolFlow™ (Campus OS)</option>
+                      <option value="easyworkflow">EasyWorkFlow™ (e-Signature Suite)</option>
+                      <option value="eserp">EsERP™ (Enterprise Resource Planning)</option>
+                      <option value="careflowhms">CareflowHMS™ (HealthTech)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Deployment Scope &amp; Target User Volume *</label>
+                  <textarea id="contact-message" name="message" class="form-textarea" placeholder="Specify your desired deployment model (SaaS, Private VPC, On-Prem), user/student count, and target start date..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                  Request Formal Licensing Proposal ➔
+                </button>
+
+                <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-col">
+          <a href="/" class="logo" style="margin-bottom: 1.25rem;">
+            <div class="logo-symbol">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <span class="logo-text">Easy Labs<span>.</span></span>
+          </a>
+          <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+            Easy Labs Ltd is a technology consulting and product development enterprise empowering modern institutions with intelligent software systems.
+          </p>
+          <div class="footer-status-bar">
+            <span class="footer-status-dot" aria-hidden="true"></span>
+            <span>All Systems Operational — 99.99% Uptime SLA</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Flagship Products</h4>
+          <div class="footer-links">
+            <a href="/easyschoolflow.html" class="footer-link">EasySchoolFlow™ (Campus OS)</a>
+            <a href="/easyworkflow.html" class="footer-link">EasyWorkFlow™ (e-Signature Suite)</a>
+            <a href="/eserp.html" class="footer-link">EsERP™ (Enterprise ERP)</a>
+            <a href="/careflowhms.html" class="footer-link">CareflowHMS™ (HealthTech)</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Engineering Services</h4>
+          <div class="footer-links">
+            <a href="/#services" class="footer-link">AI-Native Applications</a>
+            <a href="/#services" class="footer-link">Full-Stack Web Engineering</a>
+            <a href="/#services" class="footer-link">iOS &amp; Android Apps</a>
+            <a href="/#services" class="footer-link">Custom ERP &amp; Automation</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="/" class="footer-link">Home</a>
+            <a href="/pricing.html" class="footer-link" style="color: var(--accent-primary);">Licensing &amp; Pricing</a>
+            <a href="/blog.html" class="footer-link">Engineering Insights</a>
+            <a href="/#estimator" class="footer-link">Scope Estimator</a>
+            <a href="/#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Easy Labs Ltd. All rights reserved. Registered Enterprise Product &amp; Consulting Firm.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="/#contact" class="footer-link">Privacy Policy</a>
+          <a href="/#contact" class="footer-link">Terms of Service</a>
+          <a href="/#contact" class="footer-link">Security Disclosures</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+  <script>
+    // Interactive Pricing Switcher Engine
+    document.addEventListener('DOMContentLoaded', () => {
+      const productButtons = document.querySelectorAll('[data-product-price]');
+      const btnAnnual = document.getElementById('btn-billing-annual');
+      const btnMonthly = document.getElementById('btn-billing-monthly');
+      
+      let currentProduct = 'easyschoolflow';
+      let isAnnual = true;
+
+      const pricingData = {
+        easyschoolflow: {
+          tier1: { name: 'Core Platform', desc: 'For smaller tertiary institutions needing unified SIS, academic management, and essential campus operations.', priceAnnual: '₦3.5m–₦5m', priceMonthly: '₦3.5m–₦5m', cap: 'Up to ~2,000 Active Students', f1: 'Student Information System (SIS) & Admissions', f2: 'Academic Management, Course Registration & Results', f3: 'Tuition & Campus Fee Automation (Flutterwave / Paystack)', f4: 'Student, Staff & Management Portals' },
+          tier2: { name: 'Complete Campus', desc: 'The flagship package. Run your entire institution from one platform.', priceAnnual: '₦6m–₦10m', priceMonthly: '₦6m–₦10m', cap: '~2,000 – 7,500 Active Students', f1: 'Everything in Core Platform', f2: 'Advanced LMS, CBT & E-Learning', f3: 'HR, Recruitment, Leave & Payroll Integration', f4: 'Hostel, Cafeteria, Student Wallet & Inventory' },
+          tier3: { name: 'Enterprise Campus', desc: 'For large universities requiring multi-campus sync, SSO, and dedicated infrastructure.', priceAnnual: '₦12m–₦20m', priceMonthly: '₦12m–₦20m', cap: '~7,500 – 20,000 Active Students', f1: 'Everything in Complete Campus', f2: 'Multi-Campus & Multi-Entity Sync', f3: 'SSO / SAML, Advanced RBAC & API Ecosystem', f4: 'Dedicated Infrastructure, BI & Custom Workflows' },
+          tier4: { name: 'Strategic Institutional Deployment', desc: 'For federal universities, multi-campus groups, and complex government deployments.', priceAnnual: '₦20m–₦40m+', priceMonthly: '₦20m–₦40m+', cap: '20,000+ Students / Multi-Campus / Custom Scale', f1: 'Everything in Enterprise Campus', f2: 'Custom Module Development', f3: 'Legacy System Migration & Government Integration', f4: 'Dedicated Deployment Project Team' }
+        },
+        easylearn: {
+          tier1: { name: 'Campus Essential', desc: 'For single-campus schools and growing educational institutions.', priceAnnual: '$499', priceMonthly: '$599', cap: 'Up to 1,500 Active Students', f1: 'Core SIS & Academic Gradebook', f2: 'Online Classrooms & Video Archive', f3: 'Standard AI Exam Proctoring (500/mo)', f4: '99.9% High Availability SLA' },
+          tier2: { name: 'University Enterprise', desc: 'For multi-campus universities and regional school networks.', priceAnnual: '$1,499', priceMonthly: '$1,799', cap: 'Up to 15,000 Active Students', f1: 'Everything in Growth Tier', f2: 'Unlimited AI Exam & Anti-Cheat Proctoring', f3: 'Multi-Campus Database Synchronization', f4: 'SSO / SAML / Active Directory & LTI 1.3' },
+          tier3: { name: 'Sovereign Campus VPC', desc: 'For national universities and private air-gapped deployments.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Multi-Campus Scale' }
+        },
+        easyworkflow: {
+          tier1: { name: 'Business Starter', desc: 'For teams streamlining standard agreements and NDA routing.', priceAnnual: '$199', priceMonthly: '$249', cap: 'Up to 500 Envelopes / mo', f1: 'Sequential & Parallel Signer Routing', f2: 'SHA-256 Tamper-Proof Certificates', f3: 'Dynamic Reusable Templates', f4: 'Standard Webhook Event Stream' },
+          tier2: { name: 'Enterprise CLM', desc: 'For high-volume enterprises automating legal, HR, and vendor contracts.', priceAnnual: '$699', priceMonthly: '$849', cap: 'Up to 5,000 Envelopes / mo', f1: 'Everything in Business Tier', f2: 'Embedded iFrame SDKs (React, Node, iOS)', f3: 'RFC 3161 Atomic Clock Timestamping', f4: 'Salesforce, HubSpot & ERP Connectors' },
+          tier3: { name: 'High-Trust Sovereign', desc: 'For banking, legal groups, and government agencies.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Volume / Dedicated HSM' }
+        },
+        tracesign: {
+          tier1: { name: 'Business Starter', desc: 'For teams streamlining standard agreements and NDA routing.', priceAnnual: '$199', priceMonthly: '$249', cap: 'Up to 500 Envelopes / mo', f1: 'Sequential & Parallel Signer Routing', f2: 'SHA-256 Tamper-Proof Certificates', f3: 'Dynamic Reusable Templates', f4: 'Standard Webhook Event Stream' },
+          tier2: { name: 'Enterprise CLM', desc: 'For high-volume enterprises automating legal, HR, and vendor contracts.', priceAnnual: '$699', priceMonthly: '$849', cap: 'Up to 5,000 Envelopes / mo', f1: 'Everything in Business Tier', f2: 'Embedded iFrame SDKs (React, Node, iOS)', f3: 'RFC 3161 Atomic Clock Timestamping', f4: 'Salesforce, HubSpot & ERP Connectors' },
+          tier3: { name: 'High-Trust Sovereign', desc: 'For banking, legal groups, and government agencies.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Volume / Dedicated HSM' }
+        },
+        docsign: {
+          tier1: { name: 'Business Starter', desc: 'For teams streamlining standard agreements and NDA routing.', priceAnnual: '$199', priceMonthly: '$249', cap: 'Up to 500 Envelopes / mo', f1: 'Sequential & Parallel Signer Routing', f2: 'SHA-256 Tamper-Proof Certificates', f3: 'Dynamic Reusable Templates', f4: 'Standard Webhook Event Stream' },
+          tier2: { name: 'Enterprise CLM', desc: 'For high-volume enterprises automating legal, HR, and vendor contracts.', priceAnnual: '$699', priceMonthly: '$849', cap: 'Up to 5,000 Envelopes / mo', f1: 'Everything in Business Tier', f2: 'Embedded iFrame SDKs (React, Node, iOS)', f3: 'RFC 3161 Atomic Clock Timestamping', f4: 'Salesforce, HubSpot & ERP Connectors' },
+          tier3: { name: 'High-Trust Sovereign', desc: 'For banking, legal groups, and government agencies.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Volume / Dedicated HSM' }
+        },
+        eserp: {
+          tier1: { name: 'Mid-Market ERP', desc: 'For fast-growing companies modernizing core financials and inventory.', priceAnnual: '$899', priceMonthly: '$1,099', cap: 'Up to 100 Employees', f1: 'Multi-Currency General Ledger', f2: 'Automated 3-Way PO Matching', f3: 'Warehouse Barcode Batch Tracking', f4: 'Automated AP/AR Invoicing' },
+          tier2: { name: 'Global Enterprise ERP', desc: 'For multi-entity corporations with cross-border supply chains.', priceAnnual: '$2,499', priceMonthly: '$2,999', cap: 'Up to 1,000 Employees', f1: 'Everything in Mid-Market Tier', f2: 'Predictive AI Demand & Cashflow Forecasting', f3: 'Multi-State Tax & Biometric HCM Payroll', f4: 'EDI 850/856 & Custom REST API Hub' },
+          tier3: { name: 'Conglomerate VPC', desc: 'For multinational enterprises requiring dedicated private infrastructure.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Entities & Warehouses' }
+        },
+        careflowhms: {
+          tier1: { name: 'Clinic & Outpatient', desc: 'For independent medical practices and ambulatory surgery centers.', priceAnnual: '$799', priceMonthly: '$999', cap: 'Up to 25 Clinical Beds', f1: 'Longitudinal EHR & Clinical Charting', f2: 'Emergency Triage Telemetry', f3: 'Pharmacy & LIS Analyzer Direct Bridge', f4: 'HIPAA Encrypted Storage' },
+          tier2: { name: 'Hospital Network', desc: 'For community hospitals and multi-specialty healthcare facilities.', priceAnnual: '$2,899', priceMonthly: '$3,499', cap: 'Up to 250 Clinical Beds', f1: 'Everything in Clinic Tier', f2: 'Inpatient Ward Bed Allocation Floor Maps', f3: 'Direct Insurance Claims Clearinghouse (97.8% acceptance)', f4: 'WebRTC Encrypted Telehealth Engine' },
+          tier3: { name: 'Regional Healthcare VPC', desc: 'For 40+ facility hospital networks and health ministries.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Facilities & Beds (HIPAA BAA)' }
+        },
+        esmed: {
+          tier1: { name: 'Clinic & Outpatient', desc: 'For independent medical practices and ambulatory surgery centers.', priceAnnual: '$799', priceMonthly: '$999', cap: 'Up to 25 Clinical Beds', f1: 'Longitudinal EHR & Clinical Charting', f2: 'Emergency Triage Telemetry', f3: 'Pharmacy & LIS Analyzer Direct Bridge', f4: 'HIPAA Encrypted Storage' },
+          tier2: { name: 'Hospital Network', desc: 'For community hospitals and multi-specialty healthcare facilities.', priceAnnual: '$2,899', priceMonthly: '$3,499', cap: 'Up to 250 Clinical Beds', f1: 'Everything in Clinic Tier', f2: 'Inpatient Ward Bed Allocation Floor Maps', f3: 'Direct Insurance Claims Clearinghouse (97.8% acceptance)', f4: 'WebRTC Encrypted Telehealth Engine' },
+          tier3: { name: 'Regional Healthcare VPC', desc: 'For 40+ facility hospital networks and health ministries.', priceAnnual: 'Custom', priceMonthly: 'Custom', cap: 'Unlimited Facilities & Beds (HIPAA BAA)' }
+        }
+      };
+
+      function updateUI() {
+        const prod = pricingData[currentProduct];
+        
+        // Tier 1
+        document.getElementById('tier1-name').textContent = prod.tier1.name;
+        document.getElementById('tier1-desc').textContent = prod.tier1.desc;
+        document.getElementById('tier1-price').textContent = isAnnual ? prod.tier1.priceAnnual : prod.tier1.priceMonthly;
+        document.getElementById('tier1-period').textContent = isAnnual ? '/ month (billed annually)' : '/ month (billed monthly)';
+        document.getElementById('tier1-capacity').textContent = prod.tier1.cap;
+        document.getElementById('tier1-f1').textContent = prod.tier1.f1;
+        document.getElementById('tier1-f2').textContent = prod.tier1.f2;
+        document.getElementById('tier1-f3').textContent = prod.tier1.f3;
+        document.getElementById('tier1-f4').textContent = prod.tier1.f4;
+
+        // Tier 2
+        document.getElementById('tier2-name').textContent = prod.tier2.name;
+        document.getElementById('tier2-desc').textContent = prod.tier2.desc;
+        document.getElementById('tier2-price').textContent = isAnnual ? prod.tier2.priceAnnual : prod.tier2.priceMonthly;
+        document.getElementById('tier2-period').textContent = isAnnual ? '/ month (billed annually)' : '/ month (billed monthly)';
+        document.getElementById('tier2-capacity').textContent = prod.tier2.cap;
+        document.getElementById('tier2-f1').textContent = prod.tier2.f1;
+        document.getElementById('tier2-f2').textContent = prod.tier2.f2;
+        document.getElementById('tier2-f3').textContent = prod.tier2.f3;
+        document.getElementById('tier2-f4').textContent = prod.tier2.f4;
+
+        // Tier 3
+        document.getElementById('tier3-name').textContent = prod.tier3.name;
+        document.getElementById('tier3-desc').textContent = prod.tier3.desc;
+        document.getElementById('tier3-capacity').textContent = prod.tier3.cap;
+
+        // Tier 4 (EasySchoolFlow only)
+        const tier4Card = document.getElementById('tier4-card');
+        if (prod.tier4) {
+          if (tier4Card) tier4Card.style.display = '';
+          document.getElementById('tier4-name').textContent = prod.tier4.name;
+          document.getElementById('tier4-desc').textContent = prod.tier4.desc;
+          document.getElementById('tier4-price').textContent = isAnnual ? prod.tier4.priceAnnual : prod.tier4.priceMonthly;
+          document.getElementById('tier4-capacity').textContent = prod.tier4.cap;
+          document.getElementById('tier4-f1').textContent = prod.tier4.f1;
+          document.getElementById('tier4-f2').textContent = prod.tier4.f2;
+          document.getElementById('tier4-f3').textContent = prod.tier4.f3;
+          document.getElementById('tier4-f4').textContent = prod.tier4.f4;
+        } else {
+          if (tier4Card) tier4Card.style.display = 'none';
+        }
+      }
+
+      productButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          productButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentProduct = btn.dataset.productPrice;
+          updateUI();
+        });
+      });
+
+      btnAnnual.addEventListener('click', () => {
+        isAnnual = true;
+        btnAnnual.style.background = 'var(--accent-primary)';
+        btnAnnual.style.color = 'var(--text-inverse)';
+        btnMonthly.style.background = 'transparent';
+        btnMonthly.style.color = 'var(--text-secondary)';
+        updateUI();
+      });
+
+      btnMonthly.addEventListener('click', () => {
+        isAnnual = false;
+        btnMonthly.style.background = 'var(--accent-primary)';
+        btnMonthly.style.color = 'var(--text-inverse)';
+        btnAnnual.style.background = 'transparent';
+        btnAnnual.style.color = 'var(--text-secondary)';
+        updateUI();
+      });
+    });
+  </script>
+</body>
+</html>
