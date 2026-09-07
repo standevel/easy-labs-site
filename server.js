@@ -388,12 +388,16 @@ app.get("/pricing", (req, res) => {
 });
 
 // Legal & Trust Routes
-app.get("/privacy", (req, res) => {
+app.get(["/privacy", "/privacy-policy"], (req, res) => {
   res.sendFile(path.join(__dirname, "privacy.html"));
 });
 
-app.get("/terms", (req, res) => {
+app.get(["/terms", "/terms-and-conditions", "/terms-of-service"], (req, res) => {
   res.sendFile(path.join(__dirname, "terms.html"));
+});
+
+app.get(["/refund", "/refund-policy", "/refunds"], (req, res) => {
+  res.sendFile(path.join(__dirname, "refund.html"));
 });
 
 app.get("/security", (req, res) => {

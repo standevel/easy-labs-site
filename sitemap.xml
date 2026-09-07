@@ -4,121 +4,127 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://easylabs.io/</loc>
+    <loc>https://easylabsltd.com/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/easyschoolflow.html</loc>
+    <loc>https://easylabsltd.com/easyschoolflow.html</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/easyworkflow.html</loc>
+    <loc>https://easylabsltd.com/easyworkflow.html</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/eserp.html</loc>
+    <loc>https://easylabsltd.com/eserp.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/careflowhms.html</loc>
+    <loc>https://easylabsltd.com/careflowhms.html</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/pricing.html</loc>
+    <loc>https://easylabsltd.com/pricing.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/blog.html</loc>
+    <loc>https://easylabsltd.com/blog.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/blog-ai-native-architecture.html</loc>
+    <loc>https://easylabsltd.com/blog-ai-native-architecture.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/blog-hipaa-ehr-interoperability.html</loc>
+    <loc>https://easylabsltd.com/blog-hipaa-ehr-interoperability.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/blog-cryptographic-esignature-standards.html</loc>
+    <loc>https://easylabsltd.com/blog-cryptographic-esignature-standards.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/blog-campus-digital-transformation.html</loc>
+    <loc>https://easylabsltd.com/blog-campus-digital-transformation.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/privacy.html</loc>
+    <loc>https://easylabsltd.com/privacy.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/terms.html</loc>
+    <loc>https://easylabsltd.com/terms.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/security.html</loc>
+    <loc>https://easylabsltd.com/refund.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://easylabsltd.com/security.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/#products</loc>
+    <loc>https://easylabsltd.com/#products</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/#services</loc>
+    <loc>https://easylabsltd.com/#services</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/#estimator</loc>
+    <loc>https://easylabsltd.com/#estimator</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/#wizard</loc>
+    <loc>https://easylabsltd.com/#wizard</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/#case-studies</loc>
+    <loc>https://easylabsltd.com/#case-studies</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://easylabs.io/#contact</loc>
+    <loc>https://easylabsltd.com/#contact</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
