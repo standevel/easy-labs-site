@@ -156,37 +156,37 @@
 
         <h2 style="font-size: 1.45rem; color: var(--text-primary); margin-block: 2.5rem 0.75rem;">5. Payment Processors &amp; Gateway Settlement Terms</h2>
         <p>
-          Easy Labs Ltd utilizes internationally regulated payment gateways to provide seamless, secure billing across global and regional markets. All refunds are credited directly back to the original funding source through the processor utilized during the initial transaction:
+          Easy Labs Ltd integrates with licensed, PCI-DSS certified payment service partners—<strong>Flutterwave</strong>, <strong>Paystack</strong>, and <strong>Stripe</strong>—to provide secure, compliant transaction processing for our enterprise clients and platform subscribers. All approved refunds are credited directly back to the original funding source through the respective processor utilized during the initial transaction:
         </p>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.25rem; margin-block: 1.5rem;">
-          <!-- Paystack Card -->
-          <div style="background: rgba(16, 23, 38, 0.7); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 1.5rem;">
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
-              <h3 style="font-size: 1.15rem; color: var(--accent-primary); margin: 0;">Paystack</h3>
-              <span style="font-size: 0.75rem; font-family: var(--font-mono); background: rgba(0, 229, 153, 0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">Cards &bull; Transfers &bull; USSD</span>
-            </div>
-            <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
-              Primary gateway for enterprise and SaaS transactions in Nigeria, Ghana, Kenya, and South Africa (NGN, GHS, KES, ZAR, USD).
-            </p>
-            <ul style="font-size: 0.88rem; color: var(--text-muted); padding-left: 1.25rem; margin: 0; line-height: 1.6;">
-              <li><strong>Card Refunds:</strong> Reversal directly to the customer's debit/credit card within 3–7 business days depending on the issuing bank's clearing cycle.</li>
-              <li><strong>Bank Transfers &amp; USSD:</strong> Credited back to the originating bank account within 1–3 business days via Paystack automated reversal rails.</li>
-            </ul>
-          </div>
-
           <!-- Flutterwave Card -->
           <div style="background: rgba(16, 23, 38, 0.7); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 1.5rem;">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
               <h3 style="font-size: 1.15rem; color: var(--accent-primary); margin: 0;">Flutterwave</h3>
-              <span style="font-size: 0.75rem; font-family: var(--font-mono); background: rgba(0, 229, 153, 0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">Mobile Money &bull; Multi-Currency</span>
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); background: rgba(0, 229, 153, 0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">Licensed Payment Partner</span>
             </div>
             <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
-              Multi-currency processing across African and global corridors supporting cards, bank accounts, and mobile wallets.
+              Multi-currency payment processing supporting debit and credit cards, bank accounts, bank transfers, and mobile money wallets across regional and international jurisdictions.
             </p>
             <ul style="font-size: 0.88rem; color: var(--text-muted); padding-left: 1.25rem; margin: 0; line-height: 1.6;">
-              <li><strong>Mobile Money (M-Pesa, MTN MoMo, Airtel, Vodafone):</strong> Settled directly back into the originating mobile wallet within 24–48 hours.</li>
-              <li><strong>Cards &amp; Account Debits:</strong> Reversal processed within 3–7 business days based on local switch and interbank clearing times.</li>
+              <li><strong>Mobile Money Wallets (M-Pesa, MTN MoMo, Airtel Money, Vodafone Cash):</strong> Refunded directly to the originating mobile wallet, typically within 24–48 hours.</li>
+              <li><strong>Cards &amp; Bank Transfers:</strong> Refunded directly to the customer's originating card or bank account within 3–7 business days in accordance with banking network clearing rules.</li>
+            </ul>
+          </div>
+
+          <!-- Paystack Card -->
+          <div style="background: rgba(16, 23, 38, 0.7); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 1.5rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
+              <h3 style="font-size: 1.15rem; color: var(--accent-primary); margin: 0;">Paystack</h3>
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); background: rgba(0, 229, 153, 0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">Licensed Payment Partner</span>
+            </div>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+              Multi-currency payment processing supporting debit and credit cards, direct bank accounts, bank transfers, and USSD channels across regional and international jurisdictions.
+            </p>
+            <ul style="font-size: 0.88rem; color: var(--text-muted); padding-left: 1.25rem; margin: 0; line-height: 1.6;">
+              <li><strong>Debit &amp; Credit Cards:</strong> Refunded directly to the customer's card within 3–7 business days depending on the card issuer's clearing cycle.</li>
+              <li><strong>Bank Transfers &amp; USSD:</strong> Refunded directly to the customer's originating bank account within 1–3 business days via Paystack automated reversal rails.</li>
             </ul>
           </div>
 
@@ -194,14 +194,14 @@
           <div style="background: rgba(16, 23, 38, 0.7); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 1.5rem;">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
               <h3 style="font-size: 1.15rem; color: var(--accent-primary); margin: 0;">Stripe</h3>
-              <span style="font-size: 0.75rem; font-family: var(--font-mono); background: rgba(0, 229, 153, 0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">Global Cards &bull; SEPA &bull; ACH</span>
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); background: rgba(0, 229, 153, 0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">Licensed Payment Partner</span>
             </div>
             <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
-              International payment infrastructure for enterprise clients in North America, Europe, and worldwide (USD, GBP, EUR).
+              Multi-currency payment processing supporting global debit and credit cards, regional digital wallets, and bank debit networks across regional and international jurisdictions.
             </p>
             <ul style="font-size: 0.88rem; color: var(--text-muted); padding-left: 1.25rem; margin: 0; line-height: 1.6;">
-              <li><strong>Credit / Debit Cards:</strong> Settled to original card within 5–10 business days depending on card network clearing houses.</li>
-              <li><strong>SEPA / ACH / Wire:</strong> Returned to original bank account within 3–7 business days after initiation.</li>
+              <li><strong>Credit &amp; Debit Cards:</strong> Refunded directly to the customer's card within 5–10 business days depending on card network clearing houses.</li>
+              <li><strong>Direct Debit &amp; Bank Transfers (SEPA/ACH):</strong> Refunded directly to the customer's originating bank account within 3–7 business days following initiation.</li>
             </ul>
           </div>
         </div>
@@ -235,9 +235,9 @@
           <li>
             Include in the body: Your organization account ID, registered administrator email, date of payment, reason for request, and the corresponding payment gateway reference:
             <ul style="margin-top: 0.25rem; font-size: 0.92rem; color: var(--text-muted);">
-              <li><strong>Paystack:</strong> Paystack Transaction Reference (e.g., <code>pstk_...</code> or reference number)</li>
               <li><strong>Flutterwave:</strong> Flutterwave Transaction ID or Reference (e.g., <code>flw_ref_...</code>)</li>
-              <li><strong>Stripe:</strong> Stripe Charge ID or Receipt Number (e.g., <code>ch_...</code> / <code>pi_...</code>)</li>
+              <li><strong>Paystack:</strong> Paystack Transaction Reference (e.g., <code>pstk_...</code> or reference number)</li>
+              <li><strong>Stripe:</strong> Stripe Charge ID or Payment Intent ID (e.g., <code>ch_...</code> / <code>pi_...</code>)</li>
               <li><strong>Direct Wire / Bank Transfer:</strong> Bank payment reference or wire advice</li>
             </ul>
           </li>
@@ -245,10 +245,10 @@
         <div style="background: rgba(0, 229, 153, 0.05); border: 1px solid rgba(0, 229, 153, 0.2); border-radius: var(--radius-md); padding: 1.25rem; margin-block: 1.25rem;">
           <strong style="color: var(--accent-primary);">Processing &amp; Settlement Timeline:</strong>
           <p style="font-size: 0.95rem; margin-top: 0.5rem; margin-bottom: 0;">
-            Our finance team will evaluate your request within <strong>3 to 5 business days</strong>. Once approved, payout turnaround depends on your original payment channel:
-            <br>&bull; <strong>Mobile Money Wallets (Flutterwave):</strong> 24 to 48 hours.
-            <br>&bull; <strong>Local Bank Cards &amp; Accounts (Paystack &amp; Flutterwave):</strong> 3 to 7 business days.
-            <br>&bull; <strong>International Cards &amp; Bank Wire (Stripe):</strong> 5 to 10 business days.
+            Our finance team will evaluate your request within <strong>3 to 5 business days</strong>. Once approved, payout turnaround depends on the payment channel utilized:
+            <br>&bull; <strong>Mobile Money Wallets:</strong> 24 to 48 hours.
+            <br>&bull; <strong>Local &amp; Regional Cards &amp; Bank Accounts:</strong> 3 to 7 business days.
+            <br>&bull; <strong>International Cards &amp; Bank Wire:</strong> 5 to 10 business days.
           </p>
         </div>
 
